@@ -1,0 +1,29 @@
+{
+    "name": "BE_Baecon",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Elon103/BE_Baecon.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Elon103/BE_Baecon/issues"
+    },
+    "homepage": "https://github.com/Elon103/BE_Baecon#readme",
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "express": "^4.17.3",
+        "mysql": "^2.18.1"
+    },
+    "engines": {
+        "node": "12.18.4"
+    }
+}
