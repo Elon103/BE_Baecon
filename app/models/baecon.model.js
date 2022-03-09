@@ -40,7 +40,7 @@ Baecon.get_all = function(result) {
     ";
      */
 Baecon.getByName = function(name, result) {
-        var db_query = `SELECT A.user_name, B.time,C.beacon_item_name  FROM osms_user as A
+        var db_query = `SELECT A.user_name,B.longitude,B.latitude, B.time,C.beacon_item_name  FROM osms_user as A
                 LEFT JOIN osms_tracking as B
                 ON B.user_id = A.id
                 LEFT JOIN osms_beacon_item as C
